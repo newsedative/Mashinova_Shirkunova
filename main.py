@@ -9,7 +9,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-TOKEN = '5381947776:AAGaoZ4QduxWAcioZgPdNXer_mmCzxfvdR4'
+TOKEN = BOT_TOKEN
 
 
 def echo(update, context):
