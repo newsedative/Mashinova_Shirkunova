@@ -10,8 +10,9 @@ bot = telebot.TeleBot(BOT_TOKEN)
 def forward_message(message):
     bot.send_message(message.from_user.id, "Привет, я бот,"
                                            "ТЕКСТ ПРИВЕТСТВИЯ")
-    print(message.from_user.id)
     db_cr = BotDB()
+    db_cr.add_us(message.from_user.id)
+    bot.send_message(message.from_user.id, "Ты авторизован")
 
 
 bot.polling(none_stop=True, interval=0)
