@@ -14,3 +14,6 @@
 
 <h2>Библиотеки использованные в проекте</h2>
 <p>pyTelegramBotAPI</p>
+<p>requests</p>
+<p>sqlalchemy</p>
+<p>random</p>
