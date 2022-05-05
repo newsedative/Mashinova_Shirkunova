@@ -7,7 +7,7 @@ from api.weather import get_weather
 import time
 from api.for_affirmation import random_aff
 
-BOT_TOKEN = '5381947776:AAGaoZ4QduxWAcioZgPdNXer_mmCzxfvdR4'
+BOT_TOKEN = ' '
 bot = telebot.TeleBot(BOT_TOKEN)
 
 
